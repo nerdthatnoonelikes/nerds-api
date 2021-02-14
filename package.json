@@ -1,0 +1,26 @@
+{
+  "name": "nerds-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nerdthatnoonelikes/nerds-api.git",
+  "author": "nerdthatnoonelikes <kenrag24@gmail.com>",
+  "scripts": {
+    "start": "tsc && node dist/src/index"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/express-rate-limit": "^5.1.1",
+    "@types/node": "^14.14.27",
+    "@types/valid-url": "^1.0.3",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "canvas-constructor": "^4.1.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.5",
+    "mongoose": "^5.11.16",
+    "valid-url": "^1.0.9"
+  }
+}
