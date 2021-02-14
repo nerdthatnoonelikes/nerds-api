@@ -8,6 +8,7 @@ import MainRoute from "./routes/MainRoute";
 import ShortenRoute from "./routes/ShortenRoute";
 import ShortRoute from "./routes/ShortRoute";
 import SadPika from "./routes/SadPikachu";
+import Google from "./routes/GoogleRoute";
 
 const app: Application = express();
 
@@ -31,3 +32,4 @@ app.get("/", MainRoute);
 app.post("/api/v1/shorten", ShortenRoute);
 app.get("/short/:id", ShortRoute);
 app.get("/api/v1/sadpika", SadPika);
+app.get("/api/v1/google", Google);
