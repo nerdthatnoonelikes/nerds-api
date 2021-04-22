@@ -5,6 +5,13 @@
 <p>Nerds API is the API which is used by my discord bot, frosty!</p>
 <p>Currently the only features this API has are shortening URL's and generating a custom image based on text</p>
 
+| Name          | Description                                  | Parameters                                     |
+| ------------- | -------------------------------------------- | ---------------------------------------------- |
+| DuckDuckGo    | Generates a duck duck go search image        | search: The text you want                      |
+| Google        | Generates a google search image              | search: The text you want                      |
+| URL Shortener | Shorten a URL                                | redirect: The long url that will be shortened  |
+| SadPika       | Generate an image with sadpika and some text | text: the text to be put on the sad pika image |
+
 ## Running
 
 ### Requirements
